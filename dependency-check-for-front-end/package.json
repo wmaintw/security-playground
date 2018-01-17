@@ -6,7 +6,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "nsp-check": "nsp check"
+    "nsp-check": "nsp check",
+    "node-modules-check": "retire -n",
+    "js-check": "retire -j",
+    "retire-check": "retire"
   },
   "author": "thoughtworks",
   "bugs": {
